@@ -8,15 +8,20 @@ using ITAcademyTest.Interfaces;
 
 namespace ITAcademyTest.Classes
 {
-    class SymbolsSequence : ISymbolsSequence
+    class LettersSequence : ILettersSequence
     {
         public string Value { get; set; }
         public int CountInText { get; set; }
 
-        /*public SymbolsSequence(string value, int countintext)
+        public LettersSequence(string value, int countintext)
         {
             Value = value;
             CountInText = countintext;
-        }*/
+        }
+
+        public override string ToString()
+        {
+            return Value + " " + CountInText;
+        }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ITAcademyTest.Interfaces
 {
-    public interface ISymbolsSequence
+    public interface ILettersSequence
     {
         string Value { get; }
         int CountInText { get; }

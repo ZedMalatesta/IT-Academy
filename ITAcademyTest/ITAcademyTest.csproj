@@ -43,9 +43,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\Parser.cs" />
+    <Compile Include="Classes\Reader.cs" />
     <Compile Include="Classes\SequencesDictionary.cs" />
-    <Compile Include="Classes\SymbolsSequence.cs" />
-    <Compile Include="Interfaces\ISymbolsSequence.cs" />
+    <Compile Include="Classes\LettersSequence.cs" />
+    <Compile Include="Classes\Writer.cs" />
+    <Compile Include="Interfaces\ILettersSequence.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
