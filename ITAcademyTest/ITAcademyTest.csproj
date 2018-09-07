@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\Parser.cs" />
     <Compile Include="Classes\SequencesDictionary.cs" />
     <Compile Include="Classes\SymbolsSequence.cs" />
     <Compile Include="Interfaces\ISymbolsSequence.cs" />

@@ -10,13 +10,13 @@ namespace ITAcademyTest.Classes
 {
     class SymbolsSequence : ISymbolsSequence
     {
-        public string Value { get; private set; }
-        public int CountInText { get; private set; }
+        public string Value { get; set; }
+        public int CountInText { get; set; }
 
-        public SymbolsSequence(string value, int countintext)
+        /*public SymbolsSequence(string value, int countintext)
         {
             Value = value;
             CountInText = countintext;
-        }
+        }*/
     }
 }
